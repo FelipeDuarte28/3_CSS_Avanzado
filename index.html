@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@400&display=swap" rel="stylesheet">
+    <title>Felipe Duarte</title>
+    <script src="https://kit.fontawesome.com/2153f41adb.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./assets/css/normalize.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <div class="grid-container">
+        <header class="header">
+            <h2>Fruta y comida</h2>
+
+            <div class="buscador">
+                <label for="filtro"></label>
+                <select name="filtro" id="filtro">
+                    <option value="" disabled selected>Ordenar por...</option>
+                    <option value="nombre">Nombre</option>
+                    <option value="precio">Precio</option>
+                    <option value="tipo">Tipo</option>
+                </select>
+
+                <i class="fa-sharp fa-solid fa-bars"></i>
+            </div>
+        </header>
+        
+        <aside class="sidebar">
+            <h2 class="category">Categorías</h2>
+            <span>Helados</span>
+            <span>Frutas</span>
+            <span>Masas</span>
+            <span>Entretenidos</span>
+        </aside>
+
+        <section class="main">
+            <div class="card">
+                <img src="./assets/img/frutilla.jpg" alt="frutilla">
+                <p>Frutillas muy rojas</p>
+                <p>$1.000</p>
+                <button>Comprar</button>
+            </div>
+            <div class="card">
+                <img src="./assets/img/pina.jpg" alt="pina">
+                <p>Piñas hawaianas</p>
+                <p>$10.000</p>
+                <button>Comprar</button>
+            </div>
+            <div class="card">
+                <img src="./assets/img/naranja.jpg" alt="naranja">
+                <p>Rodajas de naranjas</p>
+                <p>$500</p>
+                <button>Comprar</button>
+            </div>
+            <div class="card">
+                <img src="./assets/img/pan.jpg" alt="pan">
+                <p>Pan integral</p>
+                <p>$1.200</p>
+                <button>Comprar</button>
+            </div>
+            <div class="card">
+                <img src="./assets/img/helado.jpg" alt="helado">
+                <p>Barquillo con tres helados</p>
+                <p>$3.000</p>
+                <button>Comprar</button>
+            </div>
+        </section>
+
+        <div class="pagination">
+            <a href="#">&laquo;</a>
+            <a href="#">1</a>
+            <a href="#">2</a>
+            <a href="#">3</a>
+            <a href="#">&raquo;</a>
+        </div>
+        
+        <footer class="footer">
+            <p>Felipe Duarte. <br> Todos los derechos reservados.</p>
+        </footer>
+    </div>
+</body>
+
+</html>
